@@ -1,8 +1,8 @@
-name: test react app
+name: Test react app
 on: push
 jobs:
-  test_this_shit:
-    run-on: ubuntu-latest
+  test:
+    runs-on: ubuntu-latest
     steps:
       - name: Get reposetory code 
         uses: actions/checkout@v4
